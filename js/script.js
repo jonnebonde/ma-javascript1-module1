@@ -15,14 +15,11 @@ const cats = [
 
 // question 1
 
-/* const cat = {
-    complain = "1",
+function complain(cat) {
+    console.log(cat);
+}
 
-}
-function mjau() {
-    console.log("meow");
-}
-mjau() */
+complain("Meow!")
 
 
 // question 2
@@ -39,4 +36,22 @@ heading.style.fontSize = "2em";
 
 // question 4
 
-heading
+heading.classList.add("subheading");
+
+
+// question 5
+
+
+const paragraphs = document.querySelectorAll("p");
+
+for(let i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.color = "red";
+}
+
+
+// question 6
+
+
+const resultsContainer = document.querySelector(".results");
+
+resultsContainer.innerHTMl = 
