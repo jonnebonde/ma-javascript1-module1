@@ -54,4 +54,27 @@ for(let i = 0; i < paragraphs.length; i++) {
 
 const resultsContainer = document.querySelector(".results");
 
-resultsContainer.innerHTMl = 
+resultsContainer.innerHTML = `<p>New Paragraph</p>`;
+resultsContainer.querySelector("p").style.backgroundColor = "yellow"
+
+
+// question 7
+
+
+function catsList(list){
+
+    for(let i = 0; i < list.length; i++) {
+        console.log(list[i].name);
+    }
+
+}
+
+catsList(cats)
+
+
+// question 8
+
+function createCats(cats) {
+    
+}
+
