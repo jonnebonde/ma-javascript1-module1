@@ -15,10 +15,9 @@ const cats = [
 
 // question 1
 
-
 const cat = {
     complain: function () {
-      console.log("Meow");
+      console.log("Meow!");
     },
   };
   
