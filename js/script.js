@@ -15,11 +15,14 @@ const cats = [
 
 // question 1
 
-function complain(cat) {
-    console.log(cat);
-}
 
-complain("Meow!")
+const cat = {
+    complain: function () {
+      console.log("Meow");
+    },
+  };
+  
+  cat.complain();
 
 
 // question 2
@@ -55,7 +58,7 @@ for(let i = 0; i < paragraphs.length; i++) {
 const resultsContainer = document.querySelector(".results");
 
 resultsContainer.innerHTML = `<p>New Paragraph</p>`;
-resultsContainer.querySelector("p").style.backgroundColor = "yellow"
+resultsContainer.style.backgroundColor = "yellow"
 
 
 // question 7
