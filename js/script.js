@@ -80,9 +80,9 @@ let html = "";
 
 function createCats(cats) {
 
-    
+     
 
-    for(let i = 0; i < cats.length; i++) {
+        for(let i = 0; i < cats.length; i++) {
 
         let catAge = cats[i].age;
 
